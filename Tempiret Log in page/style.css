@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    color: white;
+}
+.login{
+    top: 50px;
+    left: 600px;
+    height: 550px;
+    border: none;
+    margin: none;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: -5px 5px 30px 15px white;
+    padding: 15px;
+    width: 400px;
+    
+}
+#logo{
+    left: 70px;
+    top: 50px;
+    position: absolute;
+    padding: none;
+    margin: none;
+}
+/*#slogan{
+    top: 29%;
+    left: 200px;
+    font-size: 25px;
+    position: absolute;
+}*/
+#google{
+    width: 40%;
+    padding-left: 5%;
+    background-color: black;
+    border: solid white;
+    border-radius: 4px;
+}
+#facebook{
+    width: 40%;
+    float: right;
+    padding-right: 5%;
+    background-color: black;
+    border: solid white;
+    border-radius: 4px;
+}
+sup{
+    font-size:30px;
+    top: 5px;
+}
+/*box-shadow: horizontal offset, vertical offset, blur radius, spread radius(optional), color*/
+#gooface{
+    font-size: 30px
+    text-align: center;
+    top: 0;
+    padding: none;
+    margin: none;
+}
+#button1, #button2{
+    width: 150px;
+    height: 50px;
+    margin-bottom: none;
+    font-size: 30px;
+}
+legend{
+    font-size: 30px;
+    font-family: Arial;
+    margin: none;
+    padding: none;
+}
+#button1{
+    margin-right: 5px;
+}
+#button2{
+    margin-left: 5px;
+    float: right;
+    background-color: #787EFF;
+    border: none;
+    color: white;
+}
+#using{
+    text-align: center;
+}
+#or{
+    font-size: 15px;
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+#email, #password{
+    width: 330px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    margin: none;
+    padding: none;
+}
+#login{
+    margin: none;
+    padding: none;
+    background-color: black;
+    margin-left: 70px;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+#signup{
+    font-size: 20px;
+}
+a{
+    text-decoration-style: none;
+    color: #CDCDCD;
+    font-style: none;
+    text-decoration: none;
+}
+#button1:hover{
+    background-color: white;
+    color: black;
+}
+#button2:hover{
+    background-color: white;
+    color: black;
+}
+#login:hover{
+    background-color: white;
+    color: black;
+}
